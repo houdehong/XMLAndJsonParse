@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipments>
+  <equipments-number>2</equipments-number>
+  <equipment id="1">
+    <login-info>
+      <address>172.16.0.1</address>
+      <telnet-password>CISCO</telnet-password>
+      <enable-password>CISCO</enable-password>
+    </login-info>
+    <test-commands>
+      <command>show ip route</command>
+    </test-commands>
+    <test-returns>
+      <return>192.168.1.0/24</return>
+    </test-returns>
+  </equipment>
+  <equipment id="2">
+    <login-info>
+      <address>172.16.0.2</address>
+      <telnet-password>CISCO</telnet-password>
+      <enable-password>CISCO</enable-password>
+    </login-info>
+    <test-commands>
+      <command>show ip route</command>
+    </test-commands>
+    <test-returns>
+      <return>192.168.2.0/24</return>
+    </test-returns>
+  </equipment>
+</equipments>

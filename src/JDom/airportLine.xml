@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="GBK"?>
+<AirPortLine>
+    <line lid="MU2480" num="3">
+        <id>1</id>
+        <station>
+            <sid>1</sid>
+            <sname>武汉</sname>
+        </station>
+        <station>
+            <sid>2</sid>
+            <sname>石家庄</sname>
+        </station>
+        <station>
+            <sid>3</sid>
+            <sname>北京</sname>
+        </station>
+    </line>
+    <line lid="MU2483" num="4">
+        <id>2</id>
+        <station>
+            <sid>1</sid>
+            <sname>重庆</sname>
+        </station>
+        <station>
+            <sid>2</sid>
+            <sname>武汉</sname>
+        </station>
+        <station>
+            <sid>3</sid>
+            <sname>上海</sname>
+        </station>
+        <station>
+            <sid>4</sid>
+            <sname>东京</sname>
+        </station>
+    </line>
+    <line lid="MU2485" num="2">
+        <id>3</id>
+        <station>
+            <sid>1</sid>
+            <sname>上海</sname>
+        </station>
+        <station>
+            <sid>2</sid>
+            <sname>纽约</sname>
+        </station>
+    </line>
+</AirPortLine>
